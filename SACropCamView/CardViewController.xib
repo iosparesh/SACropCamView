@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16097.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardViewController" customModule="SACropCamView" customModuleProvider="target">
+            <connections>
+                <outlet property="handleView" destination="lLM-Qp-Bg8" id="3QB-u5-aci"/>
+                <outlet property="view" destination="iN0-l3-epB" id="zoj-so-Adu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="543"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q2o-xn-TCO">
+                    <rect key="frame" x="0.0" y="65" width="414" height="478"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLM-Qp-Bg8">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+                    <subviews>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDN-Nd-ue3">
+                            <rect key="frame" x="182" y="30.5" width="50" height="4"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="H8l-rX-z05"/>
+                                <constraint firstAttribute="height" constant="4" id="uFY-4l-lKk"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="fDN-Nd-ue3" firstAttribute="centerY" secondItem="lLM-Qp-Bg8" secondAttribute="centerY" id="2I5-pI-rJx"/>
+                        <constraint firstAttribute="height" constant="65" id="opc-fy-d7g"/>
+                        <constraint firstItem="fDN-Nd-ue3" firstAttribute="centerX" secondItem="lLM-Qp-Bg8" secondAttribute="centerX" id="rcM-rc-VTw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lLM-Qp-Bg8" secondAttribute="trailing" id="5jp-46-gN5"/>
+                <constraint firstItem="q2o-xn-TCO" firstAttribute="top" secondItem="lLM-Qp-Bg8" secondAttribute="bottom" id="Aia-LF-prq"/>
+                <constraint firstAttribute="trailing" secondItem="q2o-xn-TCO" secondAttribute="trailing" id="L29-xL-kjJ"/>
+                <constraint firstItem="lLM-Qp-Bg8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LvP-vD-M1b"/>
+                <constraint firstItem="lLM-Qp-Bg8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YdV-d2-KnF"/>
+                <constraint firstAttribute="bottom" secondItem="q2o-xn-TCO" secondAttribute="bottom" id="alt-Qn-XYF"/>
+                <constraint firstItem="q2o-xn-TCO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tDk-Gq-vdR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-54" y="62"/>
+        </view>
+    </objects>
+</document>

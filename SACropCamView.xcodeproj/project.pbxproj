@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AF60532E252B007A00AD6A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60532D252B007A00AD6A5D /* AppDelegate.swift */; };
-		AF605330252B007A00AD6A5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60532F252B007A00AD6A5D /* SceneDelegate.swift */; };
 		AF605332252B007A00AD6A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF605331252B007A00AD6A5D /* ViewController.swift */; };
 		AF605335252B007A00AD6A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF605333252B007A00AD6A5D /* Main.storyboard */; };
 		AF605337252B007F00AD6A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF605336252B007F00AD6A5D /* Assets.xcassets */; };
 		AF60533A252B007F00AD6A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF605338252B007F00AD6A5D /* LaunchScreen.storyboard */; };
+		AF605342252B220400AD6A5D /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF605341252B220400AD6A5D /* CardViewController.swift */; };
+		AF605344252B220F00AD6A5D /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF605343252B220F00AD6A5D /* CardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF60532A252B007A00AD6A5D /* SACropCamView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SACropCamView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF60532D252B007A00AD6A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF60532F252B007A00AD6A5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF605331252B007A00AD6A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF605334252B007A00AD6A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF605336252B007F00AD6A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF605339252B007F00AD6A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF60533B252B007F00AD6A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF605341252B220400AD6A5D /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		AF605343252B220F00AD6A5D /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				AF60532D252B007A00AD6A5D /* AppDelegate.swift */,
-				AF60532F252B007A00AD6A5D /* SceneDelegate.swift */,
 				AF605331252B007A00AD6A5D /* ViewController.swift */,
 				AF605333252B007A00AD6A5D /* Main.storyboard */,
 				AF605336252B007F00AD6A5D /* Assets.xcassets */,
 				AF605338252B007F00AD6A5D /* LaunchScreen.storyboard */,
 				AF60533B252B007F00AD6A5D /* Info.plist */,
+				AF605341252B220400AD6A5D /* CardViewController.swift */,
+				AF605343252B220F00AD6A5D /* CardViewController.xib */,
 			);
 			path = SACropCamView;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF605344252B220F00AD6A5D /* CardViewController.xib in Resources */,
 				AF60533A252B007F00AD6A5D /* LaunchScreen.storyboard in Resources */,
 				AF605337252B007F00AD6A5D /* Assets.xcassets in Resources */,
 				AF605335252B007A00AD6A5D /* Main.storyboard in Resources */,
@@ -140,7 +144,7 @@
 			files = (
 				AF605332252B007A00AD6A5D /* ViewController.swift in Sources */,
 				AF60532E252B007A00AD6A5D /* AppDelegate.swift in Sources */,
-				AF605330252B007A00AD6A5D /* SceneDelegate.swift in Sources */,
+				AF605342252B220400AD6A5D /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G34KQT9TPD;
 				INFOPLIST_FILE = SACropCamView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G34KQT9TPD;
 				INFOPLIST_FILE = SACropCamView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
